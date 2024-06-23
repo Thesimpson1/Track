@@ -8,32 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* TruckupChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TruckupChallengeTests.m */; };
+		0704EA61A68E4AA2A35A38D6 /* FiraCode-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196E785E8EC248CDBA987C2D /* FiraCode-Medium.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-TruckupChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-TruckupChallenge.a */; };
+		118F3D4A2CEA41479B0142FE /* Lazzer-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3A64CA9D8144473BB78CD34 /* Lazzer-Bold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-TruckupChallenge-TruckupChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-TruckupChallenge-TruckupChallengeTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B850E3521FD0493B3F44590B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7402AD6C49A7F770EE337F97 /* PrivacyInfo.xcprivacy */; };
-		9C0CB3560B4B4C65B75CBC9B /* FiraCode-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ADDD2DC3D2048FEB0752B1C /* FiraCode-Bold.ttf */; };
-		B1A56D860CDD45B6BB566AB8 /* FiraCode-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB881621EE214B7F963179A3 /* FiraCode-Light.ttf */; };
-		0704EA61A68E4AA2A35A38D6 /* FiraCode-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 196E785E8EC248CDBA987C2D /* FiraCode-Medium.ttf */; };
-		711D81F6353740139BCA57BC /* FiraCode-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B245184A22E94CFC81F542B0 /* FiraCode-Regular.ttf */; };
-		2F24BA1FC4F043F78CEB718D /* FiraCode-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 012B873899E4421A97627C3F /* FiraCode-SemiBold.ttf */; };
-		118F3D4A2CEA41479B0142FE /* Lazzer-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3A64CA9D8144473BB78CD34 /* Lazzer-Bold.ttf */; };
 		235FA5AC6D4F4F9A8610373B /* Lazzer-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CEF8997441447EAACBAAF51 /* Lazzer-BoldItalic.ttf */; };
-		9C4EB48BDC904EE5978625BF /* Lazzer-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E308339AE0A4AE484A1E9F6 /* Lazzer-Heavy.ttf */; };
-		561CA8D0485D45BE8494F1B5 /* Lazzer-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F5C8160A3684E75B044A451 /* Lazzer-HeavyItalic.ttf */; };
-		6DE35CA0FEE54375BC7F256B /* Lazzer-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8D97F357F3944F999DFF0B8 /* Lazzer-Light.ttf */; };
-		8ECDC066AD124EF28992E5F6 /* Lazzer-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A177E88160AC4E2586CAC14B /* Lazzer-LightItalic.ttf */; };
-		FE154F1553C44775846C0B8C /* Lazzer-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA0F448938404C59926E53CD /* Lazzer-Medium.ttf */; };
+		2F24BA1FC4F043F78CEB718D /* FiraCode-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 012B873899E4421A97627C3F /* FiraCode-SemiBold.ttf */; };
+		34C5A39C77C64516940B090F /* Lazzer-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3219E94D58E7497195F791E3 /* Lazzer-Thin.ttf */; };
 		34E6AD34B3B448D385B4C7C3 /* Lazzer-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17185D3AD9CA46099DCB0224 /* Lazzer-MediumItalic.ttf */; };
 		3FDFCE7397784B2E80AE404F /* Lazzer-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EE071C2E6294BBA89ABE342 /* Lazzer-Regular.ttf */; };
-		FFBF30F03BB54DD4AC0331EC /* Lazzer-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9426515CAFC5456C9B7F919A /* Lazzer-RegularItalic.ttf */; };
-		D3D3BBCB52764351920CE6E4 /* Lazzer-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03F3989027404A679455F9CC /* Lazzer-SemiBold.ttf */; };
+		561CA8D0485D45BE8494F1B5 /* Lazzer-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F5C8160A3684E75B044A451 /* Lazzer-HeavyItalic.ttf */; };
 		6C995378160343E2B95B392E /* Lazzer-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B8DE3D0A3E41098EDAEA44 /* Lazzer-SemiBoldItalic.ttf */; };
-		34C5A39C77C64516940B090F /* Lazzer-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3219E94D58E7497195F791E3 /* Lazzer-Thin.ttf */; };
+		6DE35CA0FEE54375BC7F256B /* Lazzer-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8D97F357F3944F999DFF0B8 /* Lazzer-Light.ttf */; };
+		711D81F6353740139BCA57BC /* FiraCode-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B245184A22E94CFC81F542B0 /* FiraCode-Regular.ttf */; };
+		7699B88040F8A987B510C191 /* libPods-TruckupChallenge-TruckupChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-TruckupChallenge-TruckupChallengeTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8ECDC066AD124EF28992E5F6 /* Lazzer-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A177E88160AC4E2586CAC14B /* Lazzer-LightItalic.ttf */; };
+		9C0CB3560B4B4C65B75CBC9B /* FiraCode-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ADDD2DC3D2048FEB0752B1C /* FiraCode-Bold.ttf */; };
+		9C4EB48BDC904EE5978625BF /* Lazzer-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E308339AE0A4AE484A1E9F6 /* Lazzer-Heavy.ttf */; };
+		B1A56D860CDD45B6BB566AB8 /* FiraCode-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB881621EE214B7F963179A3 /* FiraCode-Light.ttf */; };
+		B850E3521FD0493B3F44590B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7402AD6C49A7F770EE337F97 /* PrivacyInfo.xcprivacy */; };
 		BE8EDC451C154BB68E0E747B /* Lazzer-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 967D206758D84D1BBE86A020 /* Lazzer-ThinItalic.ttf */; };
+		D3D3BBCB52764351920CE6E4 /* Lazzer-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03F3989027404A679455F9CC /* Lazzer-SemiBold.ttf */; };
+		FE154F1553C44775846C0B8C /* Lazzer-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA0F448938404C59926E53CD /* Lazzer-Medium.ttf */; };
+		FFBF30F03BB54DD4AC0331EC /* Lazzer-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9426515CAFC5456C9B7F919A /* Lazzer-RegularItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +50,8 @@
 		00E356EE1AD99517003FC87E /* TruckupChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruckupChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* TruckupChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TruckupChallengeTests.m; sourceTree = "<group>"; };
+		012B873899E4421A97627C3F /* FiraCode-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "FiraCode-SemiBold.ttf"; path = "../app/assets/fonts/FiraCode-SemiBold.ttf"; sourceTree = "<group>"; };
+		03F3989027404A679455F9CC /* Lazzer-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lazzer-SemiBold.ttf"; path = "../app/assets/fonts/Lazzer-SemiBold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* TruckupChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruckupChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TruckupChallenge/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = TruckupChallenge/AppDelegate.mm; sourceTree = "<group>"; };
@@ -57,34 +59,32 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TruckupChallenge/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TruckupChallenge/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = TruckupChallenge/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		17185D3AD9CA46099DCB0224 /* Lazzer-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lazzer-MediumItalic.ttf"; path = "../app/assets/fonts/Lazzer-MediumItalic.ttf"; sourceTree = "<group>"; };
+		196E785E8EC248CDBA987C2D /* FiraCode-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "FiraCode-Medium.ttf"; path = "../app/assets/fonts/FiraCode-Medium.ttf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-TruckupChallenge-TruckupChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TruckupChallenge-TruckupChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CEF8997441447EAACBAAF51 /* Lazzer-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lazzer-BoldItalic.ttf"; path = "../app/assets/fonts/Lazzer-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3219E94D58E7497195F791E3 /* Lazzer-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lazzer-Thin.ttf"; path = "../app/assets/fonts/Lazzer-Thin.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-TruckupChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckupChallenge.debug.xcconfig"; path = "Target Support Files/Pods-TruckupChallenge/Pods-TruckupChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		49B8DE3D0A3E41098EDAEA44 /* Lazzer-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lazzer-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Lazzer-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		4E308339AE0A4AE484A1E9F6 /* Lazzer-Heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lazzer-Heavy.ttf"; path = "../app/assets/fonts/Lazzer-Heavy.ttf"; sourceTree = "<group>"; };
+		4EE071C2E6294BBA89ABE342 /* Lazzer-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lazzer-Regular.ttf"; path = "../app/assets/fonts/Lazzer-Regular.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-TruckupChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckupChallenge.release.xcconfig"; path = "Target Support Files/Pods-TruckupChallenge/Pods-TruckupChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		5ADDD2DC3D2048FEB0752B1C /* FiraCode-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "FiraCode-Bold.ttf"; path = "../app/assets/fonts/FiraCode-Bold.ttf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-TruckupChallenge-TruckupChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckupChallenge-TruckupChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-TruckupChallenge-TruckupChallengeTests/Pods-TruckupChallenge-TruckupChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-TruckupChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TruckupChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5C8160A3684E75B044A451 /* Lazzer-HeavyItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lazzer-HeavyItalic.ttf"; path = "../app/assets/fonts/Lazzer-HeavyItalic.ttf"; sourceTree = "<group>"; };
 		7402AD6C49A7F770EE337F97 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = TruckupChallenge/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TruckupChallenge/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-TruckupChallenge-TruckupChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckupChallenge-TruckupChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-TruckupChallenge-TruckupChallengeTests/Pods-TruckupChallenge-TruckupChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9426515CAFC5456C9B7F919A /* Lazzer-RegularItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lazzer-RegularItalic.ttf"; path = "../app/assets/fonts/Lazzer-RegularItalic.ttf"; sourceTree = "<group>"; };
+		967D206758D84D1BBE86A020 /* Lazzer-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lazzer-ThinItalic.ttf"; path = "../app/assets/fonts/Lazzer-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A177E88160AC4E2586CAC14B /* Lazzer-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lazzer-LightItalic.ttf"; path = "../app/assets/fonts/Lazzer-LightItalic.ttf"; sourceTree = "<group>"; };
+		B245184A22E94CFC81F542B0 /* FiraCode-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "FiraCode-Regular.ttf"; path = "../app/assets/fonts/FiraCode-Regular.ttf"; sourceTree = "<group>"; };
+		C3A64CA9D8144473BB78CD34 /* Lazzer-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lazzer-Bold.ttf"; path = "../app/assets/fonts/Lazzer-Bold.ttf"; sourceTree = "<group>"; };
+		C8D97F357F3944F999DFF0B8 /* Lazzer-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lazzer-Light.ttf"; path = "../app/assets/fonts/Lazzer-Light.ttf"; sourceTree = "<group>"; };
+		EA0F448938404C59926E53CD /* Lazzer-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lazzer-Medium.ttf"; path = "../app/assets/fonts/Lazzer-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		5ADDD2DC3D2048FEB0752B1C /* FiraCode-Bold.ttf */ = {isa = PBXFileReference; name = "FiraCode-Bold.ttf"; path = "../app/assets/fonts/FiraCode-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FB881621EE214B7F963179A3 /* FiraCode-Light.ttf */ = {isa = PBXFileReference; name = "FiraCode-Light.ttf"; path = "../app/assets/fonts/FiraCode-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		196E785E8EC248CDBA987C2D /* FiraCode-Medium.ttf */ = {isa = PBXFileReference; name = "FiraCode-Medium.ttf"; path = "../app/assets/fonts/FiraCode-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B245184A22E94CFC81F542B0 /* FiraCode-Regular.ttf */ = {isa = PBXFileReference; name = "FiraCode-Regular.ttf"; path = "../app/assets/fonts/FiraCode-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		012B873899E4421A97627C3F /* FiraCode-SemiBold.ttf */ = {isa = PBXFileReference; name = "FiraCode-SemiBold.ttf"; path = "../app/assets/fonts/FiraCode-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C3A64CA9D8144473BB78CD34 /* Lazzer-Bold.ttf */ = {isa = PBXFileReference; name = "Lazzer-Bold.ttf"; path = "../app/assets/fonts/Lazzer-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1CEF8997441447EAACBAAF51 /* Lazzer-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Lazzer-BoldItalic.ttf"; path = "../app/assets/fonts/Lazzer-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4E308339AE0A4AE484A1E9F6 /* Lazzer-Heavy.ttf */ = {isa = PBXFileReference; name = "Lazzer-Heavy.ttf"; path = "../app/assets/fonts/Lazzer-Heavy.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6F5C8160A3684E75B044A451 /* Lazzer-HeavyItalic.ttf */ = {isa = PBXFileReference; name = "Lazzer-HeavyItalic.ttf"; path = "../app/assets/fonts/Lazzer-HeavyItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C8D97F357F3944F999DFF0B8 /* Lazzer-Light.ttf */ = {isa = PBXFileReference; name = "Lazzer-Light.ttf"; path = "../app/assets/fonts/Lazzer-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A177E88160AC4E2586CAC14B /* Lazzer-LightItalic.ttf */ = {isa = PBXFileReference; name = "Lazzer-LightItalic.ttf"; path = "../app/assets/fonts/Lazzer-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EA0F448938404C59926E53CD /* Lazzer-Medium.ttf */ = {isa = PBXFileReference; name = "Lazzer-Medium.ttf"; path = "../app/assets/fonts/Lazzer-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		17185D3AD9CA46099DCB0224 /* Lazzer-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Lazzer-MediumItalic.ttf"; path = "../app/assets/fonts/Lazzer-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4EE071C2E6294BBA89ABE342 /* Lazzer-Regular.ttf */ = {isa = PBXFileReference; name = "Lazzer-Regular.ttf"; path = "../app/assets/fonts/Lazzer-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9426515CAFC5456C9B7F919A /* Lazzer-RegularItalic.ttf */ = {isa = PBXFileReference; name = "Lazzer-RegularItalic.ttf"; path = "../app/assets/fonts/Lazzer-RegularItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		03F3989027404A679455F9CC /* Lazzer-SemiBold.ttf */ = {isa = PBXFileReference; name = "Lazzer-SemiBold.ttf"; path = "../app/assets/fonts/Lazzer-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		49B8DE3D0A3E41098EDAEA44 /* Lazzer-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Lazzer-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Lazzer-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3219E94D58E7497195F791E3 /* Lazzer-Thin.ttf */ = {isa = PBXFileReference; name = "Lazzer-Thin.ttf"; path = "../app/assets/fonts/Lazzer-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		967D206758D84D1BBE86A020 /* Lazzer-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Lazzer-ThinItalic.ttf"; path = "../app/assets/fonts/Lazzer-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB881621EE214B7F963179A3 /* FiraCode-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "FiraCode-Light.ttf"; path = "../app/assets/fonts/FiraCode-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,19 +181,8 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3B4392A12AC88292D35C810B /* Pods-TruckupChallenge.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-TruckupChallenge.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-TruckupChallenge-TruckupChallengeTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-TruckupChallenge-TruckupChallengeTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		A0E3B3E148E2435AB47C2E54 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				5ADDD2DC3D2048FEB0752B1C /* FiraCode-Bold.ttf */,
 				FB881621EE214B7F963179A3 /* FiraCode-Light.ttf */,
@@ -216,8 +205,19 @@
 				967D206758D84D1BBE86A020 /* Lazzer-ThinItalic.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
 			path = "";
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-TruckupChallenge.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-TruckupChallenge.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-TruckupChallenge-TruckupChallengeTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-TruckupChallenge-TruckupChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 

@@ -1,5 +1,5 @@
-import React, {useMemo} from 'react';
-import {FlatList, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import React from 'react';
+import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {
   calcFontSize,
   calcHeight,
@@ -8,22 +8,22 @@ import {
 import {colors, MainColorName} from '../../../../constants/color.ts';
 import {CalendarList} from 'react-native-calendars';
 import moment from 'moment';
-import {format} from 'date-fns';
+import {format, getWeeksInMonth} from 'date-fns';
+import {CalendarI, DayComponentDateI} from './Calendar.type.ts';
 
-interface RenderHeaderProps {
-  date: string;
-}
-export const Calendar = () => {
+export const Calendar = ({amountOfWeek}: CalendarI) => {
   const today = moment();
+
   const renderHeader = (date: string) => {
     const displayedDate = format(new Date(date), 'MMMM yyyy');
+
     return (
       <View style={styles.calendarHeaderWrapper}>
         <Text style={styles.calendarHeaderText}>{displayedDate}</Text>
       </View>
     );
   };
-  const dayComponent = ({date}: any) => {
+  const dayComponent = ({date}: DayComponentDateI | any) => {
     const {day, dateString} = date;
     const isAfter = moment(today).isBefore(dateString);
     const isToday = moment(today).format('YYYY-MM-DD') === dateString;
@@ -41,10 +41,10 @@ export const Calendar = () => {
       </TouchableOpacity>
     );
   };
+
   return (
     <CalendarList
       pastScrollRange={0}
-      // enableSwipeMonths={true}
       style={styles.calendarMainWrapper}
       hideDayNames={true}
       pagingEnabled={true}
@@ -53,6 +53,9 @@ export const Calendar = () => {
       calendarHeight={calcHeight(358)}
       scrollEnabled={true}
       renderHeader={renderHeader}
+      onVisibleMonthsChange={data =>
+        (amountOfWeek.value = getWeeksInMonth(new Date(data[0].dateString)))
+      }
       dayComponent={dayComponent}
     />
   );
@@ -101,7 +104,4 @@ const styles = StyleSheet.create({
     color: colors[MainColorName.WHITE],
     opacity: 0.32,
   },
-  // flatListStyle: {
-  //   alignItems: 'center',
-  // },
 });
