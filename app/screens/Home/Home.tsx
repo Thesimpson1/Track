@@ -1,6 +1,6 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
-import {calcFontSize, calcHeight} from '../../utils/scaling-system';
+import {Image, StyleSheet, Text, View} from 'react-native';
+import {calcFontSize, calcHeight, calcWidth} from '../../utils/scaling-system';
 import {colors, MainColorName} from '../../constants/color.ts';
 import {Week} from './components/Week/Week.tsx';
 
@@ -9,9 +9,14 @@ import {getWeeksInMonth} from 'date-fns';
 import {useSharedValue} from 'react-native-reanimated';
 import Animated from 'react-native-reanimated';
 import {useGetAnimationStyle} from './hooks/useGetAnimationStyle.ts';
+
+import {useGetTimeZone} from '../../hooks/useGetTimeZone.ts';
+
 export const Home = () => {
   const amountOfWeek = useSharedValue(getWeeksInMonth(new Date()));
   const {timeZoneAnimatedStyle} = useGetAnimationStyle({amountOfWeek});
+
+  const {currentTimeZone} = useGetTimeZone();
 
   return (
     <View>
@@ -22,7 +27,11 @@ export const Home = () => {
         <Week />
         <Calendar amountOfWeek={amountOfWeek} />
         <Animated.View style={[styles.timeZoneWrapper, timeZoneAnimatedStyle]}>
-          <Text style={styles.topText}>Time zone</Text>
+          <Image
+            source={require('../../assets/image/img.png')}
+            style={styles.imageStyle}
+          />
+          <Text style={styles.topText}>{currentTimeZone}</Text>
         </Animated.View>
       </View>
     </View>
@@ -47,5 +56,12 @@ const styles = StyleSheet.create({
     borderTopWidth: 0.3,
     borderBottomWidth: 0.3,
     borderColor: colors[MainColorName.WHITE],
+    alignItems: 'center',
+    flexDirection: 'row',
+  },
+  imageStyle: {
+    width: calcWidth(16),
+    height: calcHeight(16),
+    marginRight: calcWidth(10),
   },
 });
