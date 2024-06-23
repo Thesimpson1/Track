@@ -102,8 +102,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
   },
   sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
+    fontSize: 58,
+    fontFamily: 'Lazzer-Thin',
   },
   sectionDescription: {
     marginTop: 8,
