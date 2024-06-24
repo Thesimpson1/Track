@@ -1,4 +1,5 @@
 import {SharedValue} from 'react-native-reanimated';
+import {StateI} from '../../Home.tsx';
 
 export interface DateI {
   dateString: string;
@@ -12,4 +13,6 @@ export interface DayComponentDateI {
 }
 export interface CalendarI {
   amountOfWeek: SharedValue<number>;
+  setDay: (value: string) => void;
+  mainState: Array<StateI>;
 }

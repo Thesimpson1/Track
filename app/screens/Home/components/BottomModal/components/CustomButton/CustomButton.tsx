@@ -1,5 +1,10 @@
 import React from 'react';
-import {StyleSheet, Text, TouchableOpacity} from 'react-native';
+import {
+  ActivityIndicator,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+} from 'react-native';
 
 import {colors, MainColorName} from '../../../../../../constants/color.ts';
 import {
@@ -7,20 +12,31 @@ import {
   calcHeight,
   calcWidth,
 } from '../../../../../../utils/scaling-system';
+
 interface CustomButtonI {
   value: string;
   onPress: () => void;
   disable: boolean;
+  isLoading: boolean;
 }
-export const CustomButton = ({value, onPress, disable}: CustomButtonI) => {
+export const CustomButton = ({
+  value,
+  onPress,
+  disable,
+  isLoading,
+}: CustomButtonI) => {
   const wrapperStyle = disable ? styles.wrapperDisable : styles.wrapperActive;
   const textStyle = disable ? styles.textDisable : styles.textActive;
   return (
     <TouchableOpacity
       style={[styles.wrapper, wrapperStyle]}
-      onPress={onPress}
+      onPressIn={onPress}
       disabled={disable}>
-      <Text style={[styles.text, textStyle]}>{value}</Text>
+      {isLoading ? (
+        <ActivityIndicator size="large" color={colors[MainColorName.GREY]} />
+      ) : (
+        <Text style={[styles.text, textStyle]}>{value}</Text>
+      )}
     </TouchableOpacity>
   );
 };

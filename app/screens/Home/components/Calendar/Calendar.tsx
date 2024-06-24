@@ -10,8 +10,9 @@ import {CalendarList} from 'react-native-calendars';
 import moment from 'moment';
 import {format, getWeeksInMonth} from 'date-fns';
 import {CalendarI, DayComponentDateI} from './Calendar.type.ts';
+import {getDayComponentInfo} from './helpers';
 
-export const Calendar = ({amountOfWeek}: CalendarI) => {
+export const Calendar = ({amountOfWeek, setDay, mainState}: CalendarI) => {
   const today = moment();
 
   const renderHeader = (date: string) => {
@@ -25,18 +26,21 @@ export const Calendar = ({amountOfWeek}: CalendarI) => {
   };
   const dayComponent = ({date}: DayComponentDateI | any) => {
     const {day, dateString} = date;
+    const isDayWithData =
+      mainState.filter(item => item.date === dateString).length !== 0;
     const isAfter = moment(today).isBefore(dateString);
     const isToday = moment(today).format('YYYY-MM-DD') === dateString;
-    const dayStyle =
-      !isAfter && !isToday
-        ? styles.calendarPrevDayComponentText
-        : styles.calendarDayComponentText;
-    const dayWrapperStyle = isToday
-      ? styles.calendarCurrentDayComponentWrapper
-      : styles.calendarDayComponentWrapper;
 
+    const {dayStyle, dayWrapperStyle} = getDayComponentInfo({
+      today,
+      dateString,
+      isDayWithData,
+    });
     return (
-      <TouchableOpacity style={dayWrapperStyle} disabled={!isAfter && !isToday}>
+      <TouchableOpacity
+        style={dayWrapperStyle}
+        disabled={!isAfter && !isToday}
+        onPress={() => setDay(dateString)}>
         <Text style={dayStyle}>{day}</Text>
       </TouchableOpacity>
     );
@@ -61,7 +65,7 @@ export const Calendar = ({amountOfWeek}: CalendarI) => {
   );
 };
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
   calendarMainWrapper: {
     height: calcHeight(358),
     backgroundColor: colors[MainColorName.BLACK],
@@ -103,5 +107,19 @@ const styles = StyleSheet.create({
     fontFamily: 'Lazzer-SemiBold',
     color: colors[MainColorName.WHITE],
     opacity: 0.32,
+  },
+
+  calendarSelectedDayComponentWrapper: {
+    height: calcHeight(35),
+    width: calcWidth(35),
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: colors[MainColorName.GREEN],
+    borderRadius: calcWidth(26),
+  },
+  calendarSelectedDayComponentText: {
+    fontSize: calcFontSize(16),
+    fontFamily: 'Lazzer-SemiBold',
+    color: colors[MainColorName.BLACK],
   },
 });

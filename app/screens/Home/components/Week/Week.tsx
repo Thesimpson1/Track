@@ -23,12 +23,14 @@ export const Week = () => {
   };
   return (
     <View style={styles.mainWrapper}>
-      <FlatList
-        data={WEEK_DAYS}
-        renderItem={renderItem}
-        horizontal={true}
-        contentContainerStyle={styles.flatListStyle}
-      />
+      <View style={styles.main}>
+        <FlatList
+          data={WEEK_DAYS}
+          renderItem={renderItem}
+          horizontal={true}
+          contentContainerStyle={styles.flatListStyle}
+        />
+      </View>
     </View>
   );
 };
@@ -40,6 +42,9 @@ const styles = StyleSheet.create({
     borderTopWidth: 0.3,
     borderBottomWidth: 0.3,
     borderColor: colors[MainColorName.WHITE],
+  },
+  main: {
+    flex: 1,
     marginHorizontal: calcWidth(22),
   },
   weekText: {

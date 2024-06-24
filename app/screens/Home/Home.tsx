@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Image, StyleSheet, Text, View} from 'react-native';
 import {calcFontSize, calcHeight, calcWidth} from '../../utils/scaling-system';
 import {colors, MainColorName} from '../../constants/color.ts';
@@ -11,29 +11,54 @@ import Animated from 'react-native-reanimated';
 import {useGetAnimationStyle} from './hooks/useGetAnimationStyle.ts';
 
 import {useGetTimeZone} from '../../hooks/useGetTimeZone.ts';
+import {BottomModal} from './components/BottomModal/BottomModal.tsx';
 
+export interface StateI {
+  date: string | null;
+  startIndex: number;
+  endIndex: number;
+}
+
+const state = [{date: '', startIndex: 0, endIndex: 0}];
 export const Home = () => {
+  const [day, setDay] = useState<null | string>(null);
+  const [mainState, setMainState] = useState(state);
   const amountOfWeek = useSharedValue(getWeeksInMonth(new Date()));
   const {timeZoneAnimatedStyle} = useGetAnimationStyle({amountOfWeek});
 
   const {currentTimeZone} = useGetTimeZone();
 
   return (
-    <View>
-      <View style={styles.topWrapper}>
-        <Text style={styles.topText}>Availability</Text>
-      </View>
+    <View style={styles.container}>
       <View>
-        <Week />
-        <Calendar amountOfWeek={amountOfWeek} />
-        <Animated.View style={[styles.timeZoneWrapper, timeZoneAnimatedStyle]}>
-          <Image
-            source={require('../../assets/image/img.png')}
-            style={styles.imageStyle}
+        <View style={styles.topWrapper}>
+          <Text style={styles.topText}>Availability</Text>
+        </View>
+        <View>
+          <Week />
+          <Calendar
+            amountOfWeek={amountOfWeek}
+            setDay={setDay}
+            mainState={mainState}
           />
-          <Text style={styles.topText}>{currentTimeZone}</Text>
-        </Animated.View>
+          <Animated.View
+            style={[styles.timeZoneWrapper, timeZoneAnimatedStyle]}>
+            <Image
+              source={require('../../assets/image/img.png')}
+              style={styles.imageStyle}
+            />
+            <Text style={styles.topText}>{currentTimeZone}</Text>
+          </Animated.View>
+        </View>
       </View>
+
+      <BottomModal
+        day={day}
+        setDay={setDay}
+        mainState={mainState}
+        // @ts-ignore
+        setMainState={setMainState}
+      />
     </View>
   );
 };
@@ -42,6 +67,10 @@ const styles = StyleSheet.create({
   topWrapper: {
     height: calcHeight(52),
     justifyContent: 'center',
+    marginTop: calcHeight(52),
+  },
+  container: {
+    flex: 1,
   },
   topText: {
     fontSize: calcFontSize(16),
